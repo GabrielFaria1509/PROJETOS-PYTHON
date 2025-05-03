@@ -14,9 +14,9 @@ if webcam.isOpened():
         validacao, frame = webcam.read()
 
         data = dt.now()  ## pega a data e hora atual
-        exibicao = data.strftime("%d-%m-%Y %H:%M:%S")  ## formata a data e hora
+        exibicao = data.strftime("%d/%m/%Y %H:%M:%S")  ## formata a data e hora
 
-        # Mensagens ajustadas
+        
         #primeiro parenteses é a posição do texto(x,y)
         #primero num isolada é a escala , segundo é a espessura
         #parenteses com 3 núemeros é a cor (B,G,R) ,RGB o quanto tem de azul verde e vermelho
